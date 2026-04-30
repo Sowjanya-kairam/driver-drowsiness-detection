@@ -1,0 +1,32 @@
+﻿__pycache__/
+*.pyc
+*.keras
+*.tflite
+*.pth
+.env
+.vscode/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Exclude large dataset files
+dataset/train/
+dataset/test/
+dataset.zip
+# IDE and environment
+.idea/
+*.swp
+*.swo
+*~
+.ipynb_checkpoints/
+*.egg
+
+# Jupyter notebooks (optional, uncomment if needed)
+# *.ipynb
+
+# Temporary files
+*.tmp
+*.log
+*.zip
+*.pdf
